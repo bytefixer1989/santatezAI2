@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santatez AI — AI-Powered Music</title>
+  <meta name="description" content="Santatez AI — AI-powered music artist. Stream the future of sound on Spotify, YouTube, and all platforms.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#a855f7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" href="icons/logo.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="icons/logo.jpg">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="42" stroke="#a855f7" stroke-width="1.5" fill="none" opacity="0.3"/>
+          <circle cx="50" cy="50" r="28" stroke="#e879f9" stroke-width="2" fill="none" opacity="0.5"/>
+          <circle cx="50" cy="50" r="8" fill="#e879f9"/>
+          <circle cx="50" cy="50" r="4" fill="#fff" opacity="0.9"/>
+          <circle cx="50" cy="18" r="4" fill="#a855f7"/><circle cx="50" cy="82" r="4" fill="#a855f7"/>
+          <circle cx="18" cy="50" r="4" fill="#e879f9"/><circle cx="82" cy="50" r="4" fill="#e879f9"/>
+          <line x1="50" y1="18" x2="50" y2="42" stroke="#a855f7" stroke-width="1.2" opacity="0.4"/>
+          <line x1="50" y1="58" x2="50" y2="82" stroke="#a855f7" stroke-width="1.2" opacity="0.4"/>
+          <line x1="18" y1="50" x2="42" y2="50" stroke="#e879f9" stroke-width="1.2" opacity="0.4"/>
+          <line x1="58" y1="50" x2="82" y2="50" stroke="#e879f9" stroke-width="1.2" opacity="0.4"/>
+        </svg>
+        <span><span style="color:#fff">Santatez</span> <span style="color:#c084fc">AI</span></span>
+      </a>
+      <div class="nav-links nav-hidden" id="navLinks">
+        <a href="#listen">Listen</a>
+        <a href="https://open.spotify.com/artist/4rNjpBV7uepQ02yrGeuSLJ?si=LCISnwTqROK63fAWUB-uoQ" target="_blank" class="social-link" aria-label="Spotify">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381C8.88 5.88 15.78 6.12 20.16 8.88c.541.3.719 1.02.42 1.56-.299.421-1.02.599-1.499.24z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UC2kInsKVPd_UF5ggO4J1spQ" target="_blank" class="social-link" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/tezaskonstantinos/" target="_blank" class="social-link" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@ktezas?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link" aria-label="TikTok">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V9.41a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.84z"/></svg>
+        </a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <canvas id="warpCanvas"></canvas>
+    <canvas id="particlesCanvas"></canvas>
+    <div class="glow-overlay"></div>
+    <div class="vignette"></div>
+    <div class="noise"></div>
+    <div class="hero-content">
+      <div class="logo-icon" id="heroLogo">
+        <div class="logo-glow"></div>
+        <svg width="90" height="90" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="42" stroke="#a855f7" stroke-width="1.5" fill="none" opacity="0.25"/>
+          <circle cx="50" cy="50" r="28" stroke="#e879f9" stroke-width="2" fill="none" opacity="0.45"/>
+          <circle cx="50" cy="50" r="14" stroke="#c084fc" stroke-width="1" fill="none" opacity="0.3"/>
+          <circle cx="50" cy="50" r="9" fill="#e879f9"/>
+          <circle cx="50" cy="50" r="4" fill="#fff" opacity="0.95"/>
+          <circle cx="50" cy="14" r="4.5" fill="#a855f7"/><circle cx="50" cy="86" r="4.5" fill="#a855f7"/>
+          <circle cx="14" cy="50" r="4.5" fill="#e879f9"/><circle cx="86" cy="50" r="4.5" fill="#e879f9"/>
+          <circle cx="24" cy="24" r="3.5" fill="#c084fc"/><circle cx="76" cy="76" r="3.5" fill="#c084fc"/>
+          <circle cx="76" cy="24" r="3.5" fill="#a855f7"/><circle cx="24" cy="76" r="3.5" fill="#a855f7"/>
+          <line x1="50" y1="14" x2="50" y2="41" stroke="#a855f7" stroke-width="1.2" opacity="0.4"/>
+          <line x1="50" y1="59" x2="50" y2="86" stroke="#a855f7" stroke-width="1.2" opacity="0.4"/>
+          <line x1="14" y1="50" x2="41" y2="50" stroke="#e879f9" stroke-width="1.2" opacity="0.4"/>
+          <line x1="59" y1="50" x2="86" y2="50" stroke="#e879f9" stroke-width="1.2" opacity="0.4"/>
+          <line x1="24" y1="24" x2="41" y2="41" stroke="#c084fc" stroke-width="1" opacity="0.3"/>
+          <line x1="76" y1="24" x2="59" y2="41" stroke="#a855f7" stroke-width="1" opacity="0.3"/>
+          <line x1="24" y1="76" x2="41" y2="59" stroke="#a855f7" stroke-width="1" opacity="0.3"/>
+          <line x1="76" y1="76" x2="59" y2="59" stroke="#c084fc" stroke-width="1" opacity="0.3"/>
+        </svg>
+      </div>
+      <h1 class="title" id="heroTitle">
+        <span class="letter white" data-i="0">S</span><span class="letter white" data-i="1">A</span><span class="letter white" data-i="2">N</span><span class="letter white" data-i="3">T</span><span class="letter white" data-i="4">A</span><span class="letter white" data-i="5">T</span><span class="letter white" data-i="6">E</span><span class="letter white" data-i="7">Z</span><span class="letter-space"></span><span class="letter purple" data-i="8">A</span><span class="letter purple" data-i="9">I</span>
+      </h1>
+      <p class="subtitle" id="heroSubtitle">AI-Powered Music</p>
+    </div>
+    <div class="scroll-indicator" onclick="document.getElementById('hype').scrollIntoView({behavior:'smooth'})">
+      <div class="mouse"></div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== HYPE / TYPEWRITER ===== -->
+  <section class="problems-section" id="hype">
+    <canvas id="warpCanvas2"></canvas>
+    <canvas id="particlesCanvas2"></canvas>
+    <div class="glow-overlay"></div>
+    <div class="vignette"></div>
+    <div class="noise"></div>
+    <div class="problems-inner" id="typewriterContainer">
+      <!-- Typed in by JS -->
+    </div>
+  </section>
+
+  <!-- ===== LISTEN NOW ===== -->
+  <section class="section" id="listen">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label"><span class="line"></span>Stream Now</span>
+        <h2>Listen <span class="gradient-text">Everywhere</span></h2>
+        <p class="desc">Find Santatez AI on all major platforms. Hit play and enter the future of sound.</p>
+      </div>
+      <div class="player-wrap reveal">
+        <iframe
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/artist/4rNjpBV7uepQ02yrGeuSLJ?utm_source=generator&theme=0"
+          width="100%"
+          height="352"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="stream-grid">
+        <a href="https://open.spotify.com/artist/4rNjpBV7uepQ02yrGeuSLJ?si=LCISnwTqROK63fAWUB-uoQ" target="_blank" class="stream-card reveal" id="spotifyCard">
+          <div class="stream-icon spotify-bg">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381C8.88 5.88 15.78 6.12 20.16 8.88c.541.3.719 1.02.42 1.56-.299.421-1.02.599-1.499.24z"/></svg>
+          </div>
+          <h3>Spotify</h3>
+          <p>Stream all tracks</p>
+          <span class="stream-arrow">→</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UC2kInsKVPd_UF5ggO4J1spQ" target="_blank" class="stream-card reveal" id="youtubeCard">
+          <div class="stream-icon youtube-bg">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </div>
+          <h3>YouTube</h3>
+          <p>Watch music videos</p>
+          <span class="stream-arrow">→</span>
+        </a>
+        <a href="#" target="_blank" class="stream-card reveal" id="appleMusicCard">
+          <div class="stream-icon apple-bg">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="#FA57C1"><path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043A5.022 5.022 0 0 0 19.7.28C19.035.093 18.35.025 17.66.01c-.12 0-.24-.01-.36-.01H6.7c-.12 0-.24 0-.36.01C5.65.025 4.965.093 4.3.28 3.22.58 2.32 1.136 1.62 1.98 1.04 2.676.66 3.476.42 4.376.24 5.034.12 5.71.05 6.396c-.02.2-.04.4-.04.61v10c0 .21.01.42.04.62.07.68.19 1.36.37 2.02.24.9.62 1.7 1.2 2.4.7.84 1.6 1.4 2.68 1.7.66.18 1.34.26 2.03.28.12.01.24.01.36.01h10.6c.12 0 .24 0 .36-.01.69-.02 1.37-.1 2.03-.28 1.08-.3 1.98-.86 2.68-1.7.58-.7.96-1.5 1.2-2.4.18-.66.3-1.34.37-2.02.02-.2.04-.41.04-.62v-10c0-.2-.01-.4-.04-.6zm-7.1 1.36l-.01 8.3c0 .27-.03.54-.09.8a2.43 2.43 0 0 1-1.07 1.53c-.39.26-.83.42-1.3.48-.5.07-.99.03-1.47-.12a2.24 2.24 0 0 1-1.44-1.37 2.23 2.23 0 0 1-.08-1.2c.12-.53.39-.98.8-1.33.35-.3.76-.5 1.2-.6.37-.09.75-.14 1.13-.15.36-.01.72.03 1.07.12V9.1l-5.88 1.76v7.37c0 .27-.03.54-.09.8a2.43 2.43 0 0 1-1.07 1.53c-.39.26-.83.42-1.3.48-.5.07-.99.03-1.47-.12a2.24 2.24 0 0 1-1.44-1.37 2.23 2.23 0 0 1-.08-1.2c.12-.53.39-.98.8-1.33.35-.3.76-.5 1.2-.6.37-.09.75-.14 1.13-.15.36-.01.72.03 1.07.12V7.27c0-.34.07-.66.22-.96.17-.35.44-.6.79-.73l6.37-2.08c.13-.04.27-.07.41-.07.38 0 .7.15.93.44.17.22.26.48.26.77z"/></svg>
+          </div>
+          <h3>Apple Music</h3>
+          <p>Listen on Apple</p>
+          <span class="stream-arrow">→</span>
+        </a>
+        <a href="#" target="_blank" class="stream-card reveal" id="soundcloudCard">
+          <div class="stream-icon soundcloud-bg">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="#FF5500"><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c-.009-.06-.05-.1-.1-.1zm-.899.828c-.06 0-.091.037-.104.094L0 14.479l.172 1.308c.013.06.045.094.104.094.053 0 .09-.04.099-.094l.198-1.308-.198-1.332c-.01-.06-.046-.094-.099-.094zm1.798-1.418c-.06 0-.102.045-.111.105l-.246 2.74.246 2.629c.009.06.051.105.111.105.054 0 .1-.045.108-.105l.272-2.629-.272-2.74c-.008-.06-.054-.105-.108-.105zm.899-.195c-.068 0-.116.052-.122.117l-.234 2.935.234 2.686c.007.06.054.116.122.116.063 0 .114-.055.12-.116l.263-2.686-.263-2.935c-.006-.065-.057-.117-.12-.117zm.9-.311c-.075 0-.127.06-.133.127l-.22 3.246.22 2.734c.006.065.058.127.133.127.07 0 .122-.062.127-.127l.248-2.734-.248-3.246c-.005-.067-.058-.127-.128-.127zm.89-.39c-.08 0-.136.065-.14.136l-.205 3.636.205 2.77c.005.075.06.14.14.14.075 0 .134-.065.137-.14l.23-2.77-.23-3.637c-.003-.07-.062-.135-.137-.135zm.9-.236c-.085 0-.142.073-.147.15l-.193 3.872.193 2.795c.005.08.062.15.147.15.082 0 .14-.07.145-.15l.217-2.795-.217-3.872c-.005-.077-.063-.15-.145-.15zm.9-.195c-.09 0-.148.08-.153.16l-.18 4.067.18 2.81c.005.085.063.16.153.16.085 0 .148-.075.15-.16l.2-2.81-.2-4.067c-.002-.08-.065-.16-.15-.16zm1.8-1.122c-.098 0-.165.09-.168.18l-.154 5.189.154 2.82c.003.09.07.18.168.18.093 0 .163-.09.166-.18l.175-2.82-.175-5.189c-.003-.09-.073-.18-.166-.18zm.9-.028c-.104 0-.172.097-.175.193l-.14 5.217.14 2.828c.003.097.071.193.175.193.098 0 .17-.096.173-.193l.157-2.828-.157-5.217c-.003-.096-.075-.193-.173-.193zm.9.028c-.108 0-.178.103-.18.206l-.126 5.189.127 2.824c.002.103.072.206.18.206.103 0 .175-.103.177-.206l.142-2.824-.142-5.189c-.002-.103-.074-.206-.178-.206zm.9-.084c-.113 0-.185.11-.187.217l-.113 5.273.113 2.82c.002.108.074.217.187.217.11 0 .182-.11.184-.217l.127-2.82-.127-5.273c-.002-.107-.074-.217-.184-.217zm5.705-.297c-.19 0-.368.037-.536.1a5.376 5.376 0 0 0-5.373-5.063c-.6 0-1.187.102-1.727.296-.204.073-.258.15-.26.296v10.476c.002.157.12.286.273.3h7.623a2.835 2.835 0 0 0 0-5.672z"/></svg>
+          </div>
+          <h3>SoundCloud</h3>
+          <p>Discover & follow</p>
+          <span class="stream-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="nav-logo footer-logo-always">
+          <svg width="28" height="28" viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="28" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.4"/>
+            <circle cx="50" cy="22" r="5" fill="#a855f7"/><circle cx="78" cy="50" r="5" fill="#e879f9"/>
+            <circle cx="50" cy="78" r="5" fill="#a855f7"/><circle cx="22" cy="50" r="5" fill="#e879f9"/>
+            <circle cx="50" cy="50" r="6" fill="#e879f9"/>
+          </svg>
+          <span><span style="color:#fff">Santatez</span> <span style="color:#c084fc">AI</span></span>
+        </a>
+        <div class="footer-socials">
+          <a href="https://open.spotify.com/artist/4rNjpBV7uepQ02yrGeuSLJ?si=LCISnwTqROK63fAWUB-uoQ" target="_blank" aria-label="Spotify">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381C8.88 5.88 15.78 6.12 20.16 8.88c.541.3.719 1.02.42 1.56-.299.421-1.02.599-1.499.24z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/channel/UC2kInsKVPd_UF5ggO4J1spQ" target="_blank" aria-label="YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/tezaskonstantinos/" target="_blank" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@ktezas?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V9.41a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.84z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copy">© 2025 Santatez AI. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/landing.js"></script>
+</body>
+</html>
